@@ -3,7 +3,6 @@ return {
     "neovim/nvim-lspconfig",
     dependencies = {
       { "j-hui/fidget.nvim", opts = {} },
-
       { "folke/lazydev.nvim", ft = "lua", opts = {} },
     },
     config = function()
@@ -21,7 +20,7 @@ return {
               autoSearchPaths = true,
               diagnosticMode = "openFilesOnly",
               useLibraryCodeForTypes = true,
-              typeCheckingMode = "off", -- "off", "basic", "standard", "strict"
+              typeCheckingMode = "strict", -- "off", "basic", "standard", "strict"
             },
           },
         },
