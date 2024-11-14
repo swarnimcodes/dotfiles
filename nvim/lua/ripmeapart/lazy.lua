@@ -23,11 +23,11 @@ require("lazy").setup({
   change_detection = { notify = false },
 })
 -- vim.cmd.colorscheme("catppuccin")
-vim.cmd.colorscheme("rose-pine")
+-- vim.cmd.colorscheme("rose-pine")
 -- vim.cmd.colorscheme("tokyonight")
 -- vim.cmd.colorscheme("gruvbox")
 -- vim.cmd.colorscheme("alabaster")
--- vim.cmd.colorscheme("rasmus")
+vim.cmd.colorscheme("rasmus")
 -- vim.cmd.colorscheme("habamax")
 -- vim.cmd.colorscheme("pywal16")
 
